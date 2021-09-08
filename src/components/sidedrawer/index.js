@@ -5,6 +5,7 @@ import TButton from '../buttons/roundedge/transparent';
 import PButton from '../buttons/roundedge/primary';
 import SButton from '../buttons/roundedge/secondary';
 import { data } from '../../data/basic'
+import AuthModal from '../buttons/modal';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function App({ drawerClickHandler, show }) {
@@ -28,7 +29,8 @@ function App({ drawerClickHandler, show }) {
         <div className="space-between" />
 
         <PButton {...listProperty} />
-        <SButton {...login} />
+        <AuthModal/>
+        {/* <SButton {...login} /> */}
       </nav>
     </div>
   );

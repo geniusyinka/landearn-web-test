@@ -1,20 +1,8 @@
 import React from 'react'
 import '../index.css'
-import SocialLogins from './SocialLogins'
+import { Btn, SocialLogins } from './Buttons'
 
 function LoginForm(props) {
-
-  const buttonStyle = {
-    backgroundColor: '#3B7E62',
-    padding: '12px',
-    width: '100%',
-    marginTop: '12px',
-    marginBottom: '12px',
-    borderRadius: '8px',
-    color: 'white',
-    border: 0,
-  }
-
   const p = {
     width: '100%',
     textAlign: 'center',
@@ -39,13 +27,7 @@ function LoginForm(props) {
           placeholder="Password"
           className="auth-input"
         />
-        <input
-          type="text"
-          name="quantity"
-          placeholder="Referral Code (optional)"
-          className="auth-input" 
-        />
-        <button style={buttonStyle}> Continue </button>
+        <Btn title='Login'/>
         <p
           style={{
             marginTop: '10px',
@@ -53,7 +35,7 @@ function LoginForm(props) {
             textAlign: 'center',
             borderBottom: '1px solid rgb(0 0 0 / 16%)',
             lineHeight: '0.1em',
-            margin: '10px 0 10px',
+            margin: '25px 0',
             fontSize: '12px',
           }}
         >
@@ -66,7 +48,7 @@ function LoginForm(props) {
             or
           </span>
         </p>
-        <SocialLogins/>
+        <SocialLogins />
       </div>
     </div>
   )

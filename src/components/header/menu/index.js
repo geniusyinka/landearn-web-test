@@ -3,6 +3,7 @@ import './index.css';
 import TButton from '../../buttons/roundedge/transparent';
 import PButton from '../../buttons/roundedge/primary';
 import SButton from '../../buttons/roundedge/secondary';
+import AuthModal from '../../buttons/modal';
 
 function App(props) {
   const { login, listProperty, buy, sell } = props;
@@ -13,7 +14,8 @@ function App(props) {
       <TButton {...buy} />
       <div className="frame-3">
         <PButton {...listProperty} />
-        <SButton {...login} />
+        <AuthModal/>
+        {/* <SButton {...login} /> */}
       </div>
     </div>
   );

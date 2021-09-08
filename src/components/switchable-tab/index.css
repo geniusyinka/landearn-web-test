@@ -1,0 +1,116 @@
+@import '../fonts.css';
+@import '../presets.css';
+
+.x712778 {
+  background-color: #f6f6f6;
+  border-radius: 100px;
+  height: 47px;
+  margin-top: 24px;
+  opacity: 1;
+  width: 221px;
+}
+
+.x712778 .frame-17-fxmCFR {
+  border-radius: 100px;
+  height: 39px;
+  left: 4px;
+  opacity: 1;
+  position: relative;
+  top: 4px;
+  width: 213px;
+}
+
+.x712778 .frame-16-NPPK8P {
+  /* background-color: #080808; */
+  border-radius: 100px;
+  height: 39px;
+  left: 0;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.x712778 .text-8-Bx4pEd {
+  /* color: #ffffff; */
+  font-family: 'Axiforma-Bold', Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.x712778 .frame-15-NPPK8P {
+  border-radius: 100px;
+  height: 39px;
+  left: 110px;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  width: 103px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.x712778 .active {
+    background-color: #080808;
+    color: #f6f6f6;
+}
+
+.x712778 .inactive {
+    background-color: #f6f6f6;
+    color: #080808;
+}
+
+.x712778 .text-9-T9vfNx {
+  /* color: #080808; */
+  font-family: 'Axiforma-Bold', Helvetica;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
+  opacity: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 213px){
+  .x712778 {
+    width: 95%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0;
+    /* padding: 20px 0; */
+    background: transparent;
+  }
+  .x712778 .frame-17-fxmCFR {
+    width: 95%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .x712778 .frame-16-NPPK8P, .x712778 .frame-15-NPPK8P {
+    position: relative;
+    left: 0;
+    margin-top: 5px;
+  }
+}

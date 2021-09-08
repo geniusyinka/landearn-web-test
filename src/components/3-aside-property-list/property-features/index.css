@@ -1,0 +1,144 @@
+@import "../../fonts.css";
+@import "../../presets.css";
+
+.feature-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* was formerly 340px*/
+  background: #ffffff;
+  border: 1px solid #e5e5e6;
+  box-sizing: border-box;
+  border-radius: 0px 0px 12px 12px;
+  margin: -5px;
+  z-index: 450;
+  cursor: pointer;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px 12px;
+  width: 100%;
+}
+
+.text-title {
+  font-family: var(--axiforma-medium-cod-gray-18px);
+  font-size: var(--font-size-xl);
+  line-height: 18px;
+  padding-bottom: 10px;
+}
+
+.text-location {
+  font-family: var(--axiforma-600-bold-cod-gray-14px);
+  font-size: var(--font-size-m);
+  line-height: 16px;
+  color: #7e7e86;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 8px 16px 12px;
+}
+
+.bottom-section-inner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px 8px 8px;
+  background: #e8f2ef;
+  border-radius: 4px;
+}
+
+.price-right-text {
+  font-family: var(--axiforma-regular-bold-black-16px);
+  font-size: var(--font-size-l);
+  line-height: 16px;
+  color: #000000;
+}
+
+.price-left {
+  color: #080808;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 8px 0px 4px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.feature-icon {
+  width: 24px;
+}
+
+.feature-amount {
+  font-family: var(--axiforma-medium-black-12px);
+  font-size: var(--font-size-s);
+  line-height: 16px;
+  color: #5e5e64;
+}
+
+@media (max-width: 390px){
+    .feature-container, .bottom-section {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .bottom-right {
+        left: 0
+    } */
+}
+
+@media (max-width: 310px){
+    .bottom-right {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1140px) {
+  .feature-container {
+    width: 100%;
+  }
+
+  .bottom-section {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1141px) {
+  .feature-container {
+    width: 100%;
+  }
+
+  .bottom-section {
+    width: 100%;
+  }
+}

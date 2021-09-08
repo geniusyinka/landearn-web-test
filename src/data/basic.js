@@ -4,7 +4,7 @@ export const data = {
     menuItems: {
         login: {
             title: "Login",
-            url: "https://landearn.com",
+            url: "https://landearn.com/login",
             className: ""
         },
         listProperty: {
